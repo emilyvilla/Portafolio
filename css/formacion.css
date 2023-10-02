@@ -1,0 +1,81 @@
+.formacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--background-negro);
+    background: var(--background-sobre-mobile);
+    padding-top: 2rem;
+}
+
+.contenido__formacion {
+    height: 17rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formacion__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.formacion__list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 100px;
+    justify-content: flex-end;
+    margin: 0.5rem;
+}
+
+.formacion__text {
+    text-decoration: none;
+    font-weight: 530;
+    color: #333;
+    display: block;
+    font-size: 12px;
+    width: 100%;
+    padding-top: 0.5rem;
+    left: 0;
+}
+
+.formacion__p {
+    padding-top: 0.4rem;
+    color: #333;
+    font-size: 12px;
+}
+
+.formacion__imagen {
+    height: 10rem;
+    width: 20rem;
+    color: #fff;
+    background-color: white;
+    background-position: center center;
+}
+
+.uno {
+    background-image: url('/img/icons/formacion/uv.jpg');
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+.dos {
+    background-image: url('/img/icons/formacion/alura.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .formacion {
+        height: 35rem;
+    }
+    .contenido__formacion {
+        height: 28rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,26 @@
+footer {
+    color: var(--background-negro);
+    background: var(--background-sobre-mobile);
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__p {
+    margin: 0;
+}
+
+/* Estilos para el enlace de derechos de autor */
+.footer__p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__p a:hover {
+    text-decoration: underline;
+}

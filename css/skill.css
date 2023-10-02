@@ -1,0 +1,104 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--background-negro);
+    background: var(--background-ceniza);
+    padding-top: 2rem;
+}
+.contenido__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+.skills__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.skills__text {
+    text-decoration: none;
+    font-weight: 530;
+    color: #333;
+    display: block;
+    font-size: 10px;
+    width: 100%;
+    left: 0;
+}
+
+.skills__imagen {
+    height: 38px;
+    width: 30px;
+    color: #fff;
+}
+
+.htmlss {
+    background-image: url('/img/icons/skills/htmml.png');
+    background-repeat: no-repeat;
+}
+
+.css {
+    background-image: url('/img/icons/skills/ccs.png');
+    background-repeat: no-repeat;
+}
+
+.jv {
+    background-image: url('/img/icons/skills/javascript.png');
+    background-repeat: no-repeat;
+}
+
+.php {
+    background-image: url('/img/icons/skills/php.png');
+    background-repeat: no-repeat;
+}
+
+.sql {
+    background-image: url('/img/icons/skills/mysql.png');
+    background-repeat: no-repeat;
+}
+
+.mdb {
+    background-image: url('/img/icons/skills/mariadb.png');
+    background-repeat: no-repeat;
+}
+
+.java {
+    background-image: url('/img/icons/skills/java.png');
+    background-repeat: no-repeat;
+}
+
+.c {
+    background-image: url('/img/icons/skills/c++.png');
+    background-repeat: no-repeat;
+}
+
+.angular {
+    background-image: url('/img/icons/skills/angular.png');
+    background-repeat: no-repeat;
+}
+
+.btp {
+    background-image: url('/img/icons/skills/bootstrap.png');
+    background-repeat: no-repeat;
+}
+
+.react {
+    background-image: url('/img/icons/skills/react.png');
+    background-repeat: no-repeat;
+}
